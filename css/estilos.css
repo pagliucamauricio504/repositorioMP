@@ -1,0 +1,291 @@
+/*estilo de toda la pagina*/
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+*   {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*esilos de cuerpo*/
+.cuerpo {
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-right: 55px;
+    background-color: rgba(226, 195, 157, 0.347);
+}
+
+/*estilos del Header*/
+.headerFijo {
+        background-color: rgba(226, 195, 157, 0.347);
+        height: 60vh;
+        background-image: url(../assets/img/fotoheader3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative;      
+}
+
+.hdp{
+    display: block;
+    width: 100%;
+    /*background-color: yellow;*/
+    position: relative;   
+}
+
+/*estilos del <div> del Logo*/
+.divLogo{
+    /*display: inline-block;
+    padding: 0;
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;*/
+    /*background-color: blue;*/
+    display: inline-block;
+    width: 13%;
+    /*height: 15vh;*/
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+/*estilos del Logo*/
+.logoCatalina {
+        width: 100%;
+        height: 100%;
+}
+
+/*estilos del <nav> del grupo de links de Navegacion*/
+.acomodatePorDios {
+    /*margin-left: 440px;*/
+    /*background-color: rgb(43, 43, 92);*/
+    /*height: 14vh;*/
+    display: inline-block;
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+}
+
+/*estilos de las listas <li> individuales de Navegacion*/
+.listadoPaginas {
+        list-style: none;
+        text-decoration: none;
+        display: inline-block;
+        background-color: rgb(241, 203, 162);
+        border-radius: 3px;
+        text-align: right; 
+        padding-left: 2%;
+        padding-right: 2%;
+}
+                
+/*estilo de los links <a> de navegacion>*/
+.linksNavegacion {
+    font-family: 'Carter One', cursive;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+ 
+/*estilos del banner principal*/
+.bannerPrincipal {
+    /*background-color: rgba(228, 128, 145, 0.09);
+        backdrop-filter: blur(12px);
+    /*-webkit-backdrop-filter: blur(12px);
+    height: 23vh;
+    width: 80%;
+    padding: 0 auto;
+    margin: 0 auto;*/
+    /*margin-top:25vh;*/
+    width: 35%;
+    height: 24vh;
+    margin:0 auto;
+    background-color: rgba(39, 38, 38, 0.406);
+    text-align: center;
+    backdrop-filter: blur(12px);
+    position: relative;
+}   
+
+/*estilo del titulo principal y secundario*/
+.tituloBannerPrincipal {
+/*font-family: 'Sacramento', cursive;
+    /*font-family: 'Anton', sans-serif;
+    font-family: 'Carter One', cursive;
+    color: rgba(251, 176, 224, 0.892);
+    -webkit-text-stroke: 0.1px rgb(13, 7, 1);
+    font-size: 4.5rem;
+    font-style: oblique;*/
+    font-size: 4.5rem;
+    font-family: 'Carter One', cursive;
+    color: rgba(251, 176, 224, 0.892);
+    -webkit-text-stroke: 0.1px rgb(13, 7, 1);
+    position: relative;
+    margin-top: 0%;
+}
+
+.tituloBannerSecundario {
+    /*font-family: 'Sacramento', cursive;*/
+    /*font-style: oblique;*/
+    /*font-family: 'Carter One', cursive*/
+        font-family: 'Anton', sans-serif;
+        color: rgba(203, 188, 199, 0.83);
+        -webkit-text-stroke: 0.1px rgb(12, 14, 1);
+        font-size: 1.5rem;
+        font-style: oblique;
+        position: relative;
+        text-align: center;
+        margin-bottom: 20px; 
+}
+
+/*estilos de la primera parte del cuerpo*/
+.cuerpoPagina {
+    background-color: rgba(226, 195, 157, 0.089);
+    display: flex;
+    background-size: cover;
+}
+
+.textoPagina {
+    font-family: 'Carter One', cursive;
+    color: rgba(0, 0, 0, 0.885);
+    padding: 20px 20px 10px 20px;
+    text-align: justify;
+}
+
+/*estilos de la segunda parte del cuerpo*/
+.bloqueDeCursos {
+    background-color: rgba(226, 195, 157, 0.089);
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    justify-content: space-between;
+}
+
+.bordeLink1 {
+    border: 1px solid rgba(232, 114, 169, 0.568); 
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    height: 90vh;
+    width: 49%;
+}
+
+.linkCursoBellezaImg{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+
+.linkCursoBelleza {
+    font-family: 'Carter One', cursive;
+    font-size: 2.5rem;
+    color: rgba(186, 155, 76, 0.792);
+    -webkit-text-stroke: 0.5px rgb(13, 7, 1);
+    text-align: center;
+    height: 100%;
+}
+
+.bordeLink2 {
+    border: 1px solid rgba(232, 114, 169, 0.568); 
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    height: 90vh;
+    width: 49%; 
+}
+
+.linkCursoBienestar {
+    font-family: 'Carter One', cursive;
+    font-size: 2.5rem;
+    color: rgba(186, 155, 76, 0.792);
+    -webkit-text-stroke: 0.5px rgb(13, 7, 1);
+    text-align: center;
+    height: 100%;
+}
+
+.linkCursoBienestarImg{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+
+/*estilos de la tercera parte del cuerpo*/
+.bloqueDePreguntas{
+    margin-left: 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 100%;
+    height: 80%;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.bordeLink3 {
+    border: 1px solid rgba(232, 114, 169, 0.568); 
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 100%;   
+}
+
+
+.linkPreguntas {
+    font-family: 'Carter One', cursive;
+    font-size: 2.5rem;
+    color: rgba(186, 155, 76, 0.792);
+    -webkit-text-stroke: 0.5px rgb(13, 7, 1);
+    text-align: center;
+    height: 100%;
+}
+
+.linkPreguntasImg{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+    
+/*estilos del footer*/
+a { text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.pieDePagina{
+    background-color: rgba(226, 195, 157, 0.551);
+    margin-top: 0;
+    text-align: center;
+    height: 30vh;
+    position: relative;
+}
+
+.iconosRedes {
+    color: rgba(159, 102, 33, 0.796);
+    padding: 10px;
+    margin-left: 50px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.listadoPaginasPie {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: 'Carter One', cursive;
+    display: inline-block;
+    padding: 0 10px 10px 10px;
+}
+
+.derechosFooter {
+    color: black;
+    font-size: 1rem;
+}
+
+
+
+.divMapa{
+    text-align: center;
+}
+
+.divVideo {
+    text-align: center;
+}
