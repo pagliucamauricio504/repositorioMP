@@ -2,98 +2,151 @@
 <html lang="es">
     
 <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CatalinaCapacitacionesOnline</title>
-        <link rel="stylesheet" href="./css/estilos.css">
-        <script src="https://kit.fontawesome.com/9f8d748b13.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleMakeUp</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="https://kit.fontawesome.com/9f8d748b13.js" crossorigin="anonymous"></script>
 </head>
     
-<body class="cuerpo">
+<body class="body__Margen">
     
-    <header class="headerFijo">
-           
-        <div class="hdp">
+    <header>
+        <!--no llegue a acomodar el NavBar, ni completar los textos e imagenes en el Index-->
+            <nav class="navbar navbar-expand-lg navbar-light Barra__Navegacion ">
+                <div class="container-fluid">
+              <div>     <a class="navbar-brand" href="#"><img class="LogoStyle" src="./assets/img/Logo2.jpg" alt="logoStyle" height="80px"></a>  
+                </div>
 
-            <div class="divLogo">
-                <img class="logoCatalina" src="./assets/img/logo.jpg" alt="logoCatalina" height="100px">
-            </div>
-        
-            <nav class="acomodatePorDios">
-                <ul>
-                    <li  class="listadoPaginas"><a class="linksNavegacion" href="./index.html">INICIO </a> </li>
-                    <li  class="listadoPaginas"><a class="linksNavegacion" href="./pages/CursosDeBelleza.html">BELLEZA </a> </li>
-                    <li  class="listadoPaginas"><a class="linksNavegacion" href="./pages/CursosDeBienestar.html">BIENESTAR </a> </li>
-                    <li  class="listadoPaginas"><a class="linksNavegacion" href="./pages/PreguntasFrecuentes.html">PREGUNTAS FRECUENTES </a> </li>
-                    <li  class="listadoPaginas"><a class="linksNavegacion" href="./pages/Contacto.html">CONTACTO </a> </li>
+
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white fs-5" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="./pages/CursosDeBelleza.html">Cursos de Belleza</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="./pages/PreguntasFrecuentes.html">Preguntas Frecuentes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="./pages/QuienesSomos.html">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="./pages/Contacto.html">Contacto</a>
+                  </li>
                 </ul>
-
-            </nav>
-            
-        </div>    
-                
-        <section >
-            <div class="bannerPrincipal">
-                <h1 class="tituloBannerPrincipal">C  A  T  A  L  I  N  A</h1>
-                <h2 class="tituloBannerSecundario">Capacitaciones Online</h2>
+              </div>
             </div>
-                <!--<div>
-                     <img src="./assets/img/fotoheader3.jpg" alt="ImgPpal" height="100px">
-                    </div>-->
-        </section>
-             
-
+            
+           
+          </nav>
+          <section>
+            <div >
+                <img src="./assets/img/fotoheader3 (2).jpg" class="header__Principal">
+                      
+               </div>
+          </section>  
+          
     </header>
         
-    <br>
+  
 
-    <main class="main">
+    <main>
+        <section>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./assets/img/Carrou.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/img/Carrou.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/Carrou.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <!--<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  
+                  <span class="visually-hidden">Previous</span>
+
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>-->
+              </div>
+        </section>
+    
+    <section class="seccion__Cards">
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card card__izq">
+                <div class="card-body">
+                  <h5 class="card-title  text-center fs-2">Cursos de Belleza Disponibles</h5>
+                  <p class="card-text  text-center fs-3">Descubre todas las técnicas en tendencia, que te llevarán a maquillar profesionalmente.</p>
+                  <a href="./pages/CursosDeBelleza.html" class="btn btn-primary fs-2">Ingresa Aquí</a>
+                </div>
+              </div>
+            
+            </div>
+            <div class="col-sm-6">
+                
+                    <div class="card  card__izq">
+                      <div class="card-body">
+                        <h5 class="card-title  text-center fs-2">Respondemos tus preguntas</h5>
+                        <p class="card-text  text-center fs-3">Descubre todas las técnicas en tendencia, que te llevarán a maquillar profesionalmente.</p>
+                        <a href="./pages/PreguntasFrecuentes.html" class="btn btn-primary fs-2">Ingresa Aquí</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </section>
+
+    <section class="seccion__Cards">
+        <div class="row">
            
-        <div class="cuerpoPagina">                                                                                                                                                                                                                                                  
-            <img src="./assets/img/lateralizquierdo1.jpg" alt="imgizq" width="300px">
-                <h3 class="textoPagina"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ullam reiciendis, voluptatem consectetur quo beatae unde fugiat maxime exercitationem natus reprehenderit vitae! Perferendis debitis officiis ex impedit. Quo, magnam provident?
-                </h3>
-            <img src="./assets/img/lateralderecho2.jpg" alt="imgder" width="300">
-        </div>
-
-    <br>
-        
-        <div class="bloqueDeCursos">
-               <div class="bordeLink1">
-                    <a href="./pages/CursosDeBelleza.html">
-                        <div class="linkCursoBelleza"><img src="./assets/img/belleza.jpg" alt="imgBelleza" class="linkCursoBellezaImg">
-                            <p>Capacitaciones de Belleza</p>
-                        </div>
-                    </a>
+            <div class="col-sm-6">
+              <div class="card card__izq">
+                <div class="card-body">
+                  <h5 class="card-title  text-center fs-2">Descubre quienes somos</h5>
+                  <p class="card-text  text-center fs-3">Descubre todas las técnicas en tendencia, que te llevarán a maquillar profesionalmente.</p>
+                  <a href="./pages/CursosDeBelleza.html" class="btn btn-primary fs-2">Ingresa Aquí</a>
                 </div>
-
-                <div class="bordeLink2">
-                    <a href="./pages/CursosDeBienestar.html">
-                        <div class="linkCursoBienestar"><img src="./assets/img/bienestar.jpg" alt="imgBienestar" class="linkCursoBienestarImg">
-                            <p>Capacitaciones de Bienestar</p>
-                        </div>
-                    </a>
+              </div>
+            
+            </div>
+            <div class="col-sm-6">
+              <div class="card  card__izq">
+                <div class="card-body">
+                  <h5 class="card-title  text-center fs-2">Contacta con Nosotros</h5>
+                  <p class="card-text  text-center fs-3">Descubre todas las técnicas en tendencia, que te llevarán a maquillar profesionalmente.</p>
+                  <a href="./pages/PreguntasFrecuentes.html" class="btn btn-primary fs-2">Ingresa Aquí</a>
                 </div>
+              </div>
+            </div>
+          </div>
 
-        </div>
+    </section>
+   
+    
+    
+    
+    
 
-    <br>
-        
-        <div class="bloqueDePreguntas">
-               <div class="bordeLink3">
-                    <a  href="./pages/PreguntasFrecuentes.html">
-                        <div class="linkPreguntas"><img src="./assets/img/preguntas2.jpg" alt="imgPreguntas" class="linkPreguntasImg">
-                            <p>Preguntas Frecuentes y Consultas</p>
-                        </div>
-                    </a>
-                </div>
-        </div>
-        
+
     </main>
+
         
-    <br>
-    <hr>
 
     <footer class="pieDePagina">
         <div>
@@ -110,9 +163,12 @@
                 <li  class="listadoPaginasPie"><a href="./pages/PreguntasFrecuentes.html">Preguntas Frecuentes </a> </li>
                 <li  class="listadoPaginasPie"><a href="./pages/Contacto.html">Contacto </a> </li>
             </ul>
-        </div>
+        
             <p class="derechosFooter">Copyright® - Todos los Derechos Reservados-</p>
+            <p><a href="https://www.flaticon.com/free-icons/open-book" title="open book icons">Open book icons created by manshagraphics - Flaticon</a></p>
+        </div>
 
     </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

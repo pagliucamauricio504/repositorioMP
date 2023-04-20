@@ -2,85 +2,173 @@
 <html lang="es">
     
 <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CatalinaCapacitacionesOnline</title>
-        <link rel="stylesheet" href="../css/estilos.css">
-        <script src="https://kit.fontawesome.com/9f8d748b13.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleMakeUp</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://kit.fontawesome.com/9f8d748b13.js" crossorigin="anonymous"></script>
 </head>
     
-<body class="cuerpo">
+<body class="body__Margen">
     
-    <header class="headerFijo">
-           
-        <div class="hdp">
-
-            <div class="divLogo">
-                <img class="logoCatalina" src="../assets/img/logo.jpg" alt="logoCatalina" height="100px">
-            </div>
+    <header>
         
-            <nav class="acomodatePorDios">
-                <ul>
-                    <li  class="listadoPaginas"><a class="linksNavegacion" href="../index.html">INICIO </a> </li>
-                    <li  class="listadoPaginas"><a class="linksNavegacion" href="./CursosDeBelleza.html">BELLEZA </a> </li>
-                    <li  class="listadoPaginas"><a class="linksNavegacion" href="./CursosDeBienestar.html">BIENESTAR </a> </li>
-                    <li  class="listadoPaginas"><a class="linksNavegacion" href="./PreguntasFrecuentes.html">PREGUNTAS FRECUENTES </a> </li>
-                    <li  class="listadoPaginas"><a class="linksNavegacion" href="./Contacto.html">CONTACTO </a> </li>
+            <nav class="navbar navbar-expand-lg navbar-light Barra__Navegacion ">
+                <div class="container-fluid">
+              <div>     <a class="navbar-brand" href="../index.html"><img class="LogoStyle" src="../assets/img/Logo2.jpg" alt="logoStyle" height="80px"></a>  
+                </div>
+
+
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white fs-5" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="./CursosDeBelleza.html">Cursos de Belleza</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="#">Preguntas Frecuentes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="./QuienesSomos.html">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="./Contacto.html">Contacto</a>
+                  </li>
                 </ul>
-
-            </nav>
-            
-        </div>    
-                
-        <section >
-            <div class="bannerPrincipal">
-                <h1 class="tituloBannerPrincipal">C  A  T  A  L  I  N  A</h1>
-                <h2 class="tituloBannerSecundario">Capacitaciones Online</h2>
+              </div>
             </div>
-                <!--<div>
-                     <img src="./assets/img/fotoheader3.jpg" alt="ImgPpal" height="100px">
-                    </div>-->
-        </section>
-             
-
+            
+           
+          </nav>
+          <section>
+            <div >
+                <img src="../assets/img/fotoheader3 (2).jpg" class="header__Principal">
+                      
+               </div>
+          </section>  
+          
     </header>
     
-    <br>
 
-    <main>
-        <div class="divMapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.287497821141!2d-71.32690508499188!3d42.655262624401054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3a445f8263a83%3A0x3c4318d051d78880!2sUniversity%20of%20Massachusetts%20Lowell!5e0!3m2!1sen!2sar!4v1679539367303!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
-            <p>Chequeadisimo por la Universidad de Massachusetts</p>
-        </div>
 
-        <div class="divVideo">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/cfNpteY0D-M" target="_blank"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <main> <!-- falta colocar una imagen del lado derecho-->
+        <section >
+                        
+            <div class="titulo__Quienesomos"><h2>Algunas preguntas frecuentes. Estamos para ayudarte!</h2></div>
+        
+        <div class="seccion_Preguntas"> 
+            <div class="dropdown boton__Preguntas d-block p-2 d-flex justify-content-start">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+             ¿Los Bonos tienen costo adicional?
+            </button>
+            
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item"></a>Todos los bonos que visualizas en esta página, por separado tienen un costo, pero al inscribirte, los tendrás todos de forma gratuita.</li>
+        
+            </ul>
+          </div>
+
+          <div class="dropdown boton__Preguntas d-block p-2 d-flex justify-content-start">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+             ¿Los Bonos tienen costo adicional?
+            </button>
+            
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item"></a>Todos los bonos que visualizas en esta página, por separado tienen un costo, pero al inscribirte, los tendrás todos de forma gratuita.</li>
+        
+            </ul>
+          </div>
+
+          <div class="dropdown boton__Preguntas d-block p-2 d-flex justify-content-start">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+             ¿Los Bonos tienen costo adicional?
+            </button>
+            
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item"></a>Todos los bonos que visualizas en esta página, por separado tienen un costo, pero al inscribirte, los tendrás todos de forma gratuita.</li>
+        
+            </ul>
+          </div>
+
+          <div class="dropdown boton__Preguntas d-block p-2 d-flex justify-content-start">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+             ¿Los Bonos tienen costo adicional?
+            </button>
+            
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item"></a>Todos los bonos que visualizas en esta página, por separado tienen un costo, pero al inscribirte, los tendrás todos de forma gratuita.</li>
+        
+            </ul>
+          </div>
+
+          <div class="dropdown boton__Preguntas d-block p-2 d-flex justify-content-start">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+             ¿Los Bonos tienen costo adicional?
+            </button>
+            
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item"></a>Todos los bonos que visualizas en esta página, por separado tienen un costo, pero al inscribirte, los tendrás todos de forma gratuita.</li>
+        
+            </ul>
+          </div>
+
+          <div class="dropdown boton__Preguntas d-block p-2 d-flex justify-content-start">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+             ¿Los Bonos tienen costo adicional?
+            </button>
+            
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item"></a>Todos los bonos que visualizas en esta página, por separado tienen un costo, pero al inscribirte, los tendrás todos de forma gratuita.</li>
+        
+            </ul>
+          </div>
+    
+          
+
+          
+          
         </div>
-        <div></div>
+    </div>
+
+        </section>
+
+
+
+
+
     </main>
 
-    <br>
-    <hr> 
-
-    <footer class="pieDePagina">
-            <div>
-                <a href="https://www.instagram.com/" target="_blank"> <i class="iconosRedes fa-brands fa-square-instagram fa-4x"></i></i> </a>
-                <a href="https://www.facebook.com/" target="_blank"> <i class="iconosRedes fa-brands fa-square-facebook fa-4x"></i></i> </a>
-                <a href="https://web.whatsapp.com/" target="_blank"> <i class="iconosRedes fa-brands fa-square-whatsapp fa-4x"></i> </a>
-                <a href="https://www.tiktok.com/" target="_blank"> <i class="iconosRedes fa-brands fa-tiktok fa-4x"></i> </a>
-            </div>
+  
     
-            <div>
-                <ul>
-                    <li  class="listadoPaginasPie"><a href="./CursosDeBelleza.html">Belleza </a> </li>
-                    <li  class="listadoPaginasPie"><a href="./CursosDeBienestar.html">Bienestar </a> </li>
-                    <li  class="listadoPaginasPie"><a href="./PreguntasFrecuentes.html">Preguntas Frecuentes </a> </li>
-                    <li  class="listadoPaginasPie"><a href="./Contacto.html">Contacto </a> </li>
-                </ul>
-            </div>
-                <p class="derechosFooter">Copyright® - Todos los Derechos Reservados-</p>
+    <footer class="pieDePagina">
+        <div>
+            <a href="https://www.instagram.com/" target="_blank"> <i class="iconosRedes fa-brands fa-square-instagram fa-4x"></i></i> </a>
+            <a href="https://www.facebook.com/" target="_blank"> <i class="iconosRedes fa-brands fa-square-facebook fa-4x"></i></i> </a>
+            <a href="https://web.whatsapp.com/" target="_blank"> <i class="iconosRedes fa-brands fa-square-whatsapp fa-4x"></i> </a>
+            <a href="https://www.tiktok.com/" target="_blank"> <i class="iconosRedes fa-brands fa-tiktok fa-4x"></i> </a>
+        </div>
+    
+        <div>
+            <ul>
+                <li  class="listadoPaginasPie"><a href="./CursosDeBelleza.html">Belleza </a> </li>
+                <li  class="listadoPaginasPie"><a href="#">Preguntas Frecuentes</a> </li>
+                <li  class="listadoPaginasPie"><a href="./QuienesSomos.html">Quienes Somos</a> </li>
+                <li  class="listadoPaginasPie"><a href="./Contacto.html">Contacto </a> </li>
+            </ul>
+        
+            <p class="derechosFooter">Copyright® - Todos los Derechos Reservados-</p>
+            <p><a href="https://www.flaticon.com/free-icons/open-book" title="open book icons">Open book icons created by manshagraphics - Flaticon</a></p>
+        </div>
     
     </footer>
-</body>
-</html>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
