@@ -31,10 +31,10 @@
 
 
 
-.row {
+/*.row {
    height: 100%;
   
-}
+}*/
 
 .card {    
     height: 100%;
@@ -220,25 +220,18 @@ a { text-decoration: none;
 @media screen and (max-width: 767px) {
     .imagen__Coord {
         width: 60%;      
-        margin-left: 22%;
-    }
-
+        margin-left: 22%;}
     .card-title {
-        padding-top: 0.25vh;
-        
-    }
-}
+        padding-top: 0.25vh;}
+                                    }
 
 @media screen and (min-width: 767px) {
    
     .imagen__Coord {
-         
         position: relative;
         top: 5%;
-        padding: 5%;
-
-    }
-}
+        padding: 5%;}
+                                    }
 
 
 

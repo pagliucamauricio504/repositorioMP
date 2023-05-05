@@ -1,0 +1,61 @@
+/*css de Preguntas Frecuentes*/
+.div__Preguntas{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    .titulo__PreguntasFrecuentes{
+        font-family: $tipografiaTexto2;
+        color: $colorPrincipalPagina;
+        text-shadow: 0 0 5px rgb(110, 107, 107);
+        font-size: 2.5rem;
+        text-align: center;}
+}
+
+@media screen and (max-width: 767px) {
+    .div__Preguntas{
+    .titulo__PreguntasFrecuentes{
+                font-size: 1.8rem;}
+    }
+                                        }
+
+.seccion__Preguntas {
+    margin-bottom: 20%;}
+    
+.boton__Preguntas {
+    margin-left: 10%;
+    position: relative;
+    width: 100%;
+    margin-right: 0%;}
+
+.dropdown-toggle{
+    font-family: $tipografiaTexto;
+    background-color: #e21ce2;}    
+        
+.btn-secondary:hover{
+    color: #fff;
+    background-color: #000408;
+    border-color: #565e6400;}
+        
+.btn-check:focus + .btn-secondary, .btn-secondary:focus {
+    color: #ffffff;
+    background-color: $colorSecundarioPagina;
+    border-color: #565e6400;
+    box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);}
+                        
+.dropdown-menu {
+    font-family: $tipografiaTexto2;
+    color: $colorPrincipalPagina;
+    background-image: radial-gradient(circle, #404144, #323134, #242324, #161515, #000000);
+    padding: 2%;
+    border-color: #0000000f;
+    border-width: 3px;}
+
+ul.dropdown-menu.show{
+    border-color: #0000000f;
+    border-width: 3px;}
+                   
+.dropdown-item {
+    background-color: #000000;
+    padding: 0;}
+
+
+

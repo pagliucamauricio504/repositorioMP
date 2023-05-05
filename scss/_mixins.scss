@@ -1,0 +1,17 @@
+
+
+@mixin formatoCardCursos ($borroso,$alineacion,$margen,$ancho){
+        backdrop-filter: $borroso;    
+        text-align: $alineacion;
+        margin: $margen;
+        width: $ancho;
+                        }
+
+
+
+
+
+       /* backdrop-filter: blur(3px);    
+        text-align: center;
+        margin:0 auto;
+        width: auto;*/

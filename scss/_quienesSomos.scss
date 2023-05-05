@@ -1,0 +1,47 @@
+/*css de videos*/
+    .div__Video {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;}
+
+    
+    
+/*MQ de la imagen de QuienesSomos*/    
+.div__Conocenos{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    .titulo__Conocenos{
+        font-family: $tipografiaTexto2;
+        color: $colorPrincipalPagina;
+        text-shadow: 0 0 5px rgb(110, 107, 107);
+        font-size: 2.5rem;
+        text-align: center;}
+                }
+
+@media screen and (max-width: 767px) {
+    .div__Conocenos{
+    .titulo__Conocenos{
+                font-size: 1.8rem;}
+                    }
+                                    }
+
+
+
+@media screen and (max-width: 767px) {
+    .imagen__Coord {
+        width: 60%;      
+        margin-left: 22%;}
+    .card-title {
+        padding-top: 0.25vh;}
+                                    }
+                    
+@media screen and (min-width: 767px) {
+    .imagen__Coord {
+        position: relative;
+        top: 5%;
+        padding: 5%;}
+                                    }
+
+

@@ -1,0 +1,95 @@
+/*Css de Cursos*/
+
+.titulo__Cursos{
+    font-family: $tipografiaTexto2;
+    color: $colorPrincipalPagina;
+    text-align: center;
+    margin: 4%;
+    font-size: 4rem;   
+    padding: 1%;
+    text-shadow: 1px 1px 5px rgb(146, 145, 145);}
+
+@media screen and (max-width: 767px) {
+    .titulo__Cursos{
+    font-size: 2.2rem;}
+                                    }
+
+
+
+.seccion__Cards {
+    .card__Uno {
+        background-image: url(../assets/img/cejas.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-color: #f5e2f4;
+        .card-body {
+            .card-title {
+                    @include formatoCardCursos (blur(3px),center,0 auto,auto);
+                    padding: 5%;
+                    font-family: $tipografiaTexto2;
+                    color: $colorEspecial;
+                    text-shadow: $sombraNegra;
+                    text-decoration: underline;}
+                    }
+            .card-text {
+                font-family: $tipografiaTexto; 
+                color: white;
+                text-shadow: $sombraNegra;}
+                }
+
+    .card__Dos {
+        background-image: url(../assets/img/pinceles.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-color: #f5e2f4;
+        .card-body {
+            .card-title {@include formatoCardCursos (blur(3px),center,0 auto,auto);
+                padding: 5%;
+                font-family: $tipografiaTexto2;
+                color: $colorEspecial;
+                text-shadow: $sombraNegra;
+                text-decoration: underline;}
+                    }
+                    .card-text {
+                        font-family: $tipografiaTexto; 
+                        color: white;
+                        text-shadow: $sombraNegra;}
+                    }
+        
+    .card__Tres {
+        background-image: url(../assets/img/automaquillaje.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-color: #f5e2f4;
+            .card-body {
+                .card-title {@include formatoCardCursos (blur(3px),center,0 auto,auto);
+                    padding: 5%;
+                    font-family: $tipografiaTexto2;
+                    color: $colorEspecial;
+                    text-shadow: $sombraNegra;
+                    text-decoration: underline;}
+                        }
+                        .card-text {
+                            font-family: $tipografiaTexto; 
+                            color: white; 
+                            text-shadow: $sombraNegra;}
+                }
+    .card__Cuatro {
+        background-image: url(../assets/img/hilo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-color: #f5e2f4;
+            .card-body {
+                .card-title {@include formatoCardCursos (blur(3px),center,0 auto,auto);
+                    padding: 5%;
+                    font-family: $tipografiaTexto2;
+                    color: $colorEspecial;
+                    text-shadow: $sombraNegra;
+                    text-decoration: underline;}
+                        }
+                        .card-text {
+                            font-family: $tipografiaTexto; 
+                            color: white;
+                            text-shadow: $sombraNegra;}
+                    }
+                }

@@ -1,0 +1,52 @@
+
+
+
+
+
+.Barra__Navegacion {
+               
+        .flexible {
+            width: 100%;
+            justify-content: flex-end;
+            
+            .nav__Li {
+              margin-left: 1%;
+              .texto__Li {
+                font-family: $tipografiaTexto;
+                text-shadow: 3px 4px 5px $colorPrincipalPagina;
+                    }
+                .texto__Li:hover {
+                    text-decoration: underline;}
+                        }
+                    }
+        .LogoDiv{
+            .LogoStyle {
+                height: 100px;
+                border-radius: 15% 60% 15% 60%;
+                border-color: $colorPrincipalPagina;
+                border-style: double;
+                border-width: 10px;
+                transition: border-color 2s, transform 2s;
+                overflow: hidden;
+                box-shadow: 0 0 10px rgb(228, 21, 215);}
+                .LogoStyle:hover {
+                    transform: rotate(360deg);
+                    border-color: rgb(4, 0, 5);}
+                }
+        
+                    }
+
+                             
+.header__Principal {
+            width: 100%;
+                    }
+
+
+                    
+/*.row {
+   height: 100%;}*/
+
+
+
+
+ 
