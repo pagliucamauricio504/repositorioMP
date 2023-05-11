@@ -3,6 +3,16 @@
 .seccion__Cards {
     margin-top: 2%;    
     margin-bottom: 2%;
+    .row{
+        .col-sm-6{
+            margin-bottom: 2%;
+        }
+    }
+
+
+
+
+
     .card {    
         height: 100%;}
     .card__izq {

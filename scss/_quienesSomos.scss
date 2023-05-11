@@ -8,23 +8,52 @@
 
     
     
-/*MQ de la imagen de QuienesSomos*/    
+  
 .div__Conocenos{
     margin-top: 2%;
     margin-bottom: 4%;
     .titulo__Conocenos{
-        font-family: $tipografiaTexto2;
+        font-family: $tipografiaTexto3;
         color: $colorPrincipalPagina;
-        text-shadow: 0 0 5px rgb(110, 107, 107);
-        font-size: 2.5rem;
+        text-shadow: 3px 3px 5px rgb(146, 145, 145);
+        font-size: 3rem;
         text-align: center;}
                 }
+
+
+.titCoordinadora{
+        font-family: $tipografiaTexto3;
+        color: $colorSecundarioPagina;
+        font-weight: bold;
+        text-shadow: 3px 3px 5px rgb(146, 145, 145);
+        text-align: center;
+        }
+
+.card-text.texto__Titcoordinadora{
+        text-shadow: 3px 4px 5px rgb(255, 255, 255);}
+
+.imagen__Coord {
+    max-width: 85%;}
+
+.col-md-8 p{
+    padding-right: 5%;
+    font-family: $tipografiaTexto4;
+    font-weight: bold;
+}
+                
+
 
 @media screen and (max-width: 767px) {
     .div__Conocenos{
     .titulo__Conocenos{
                 font-size: 1.8rem;}
                     }
+    .col-md-8 p{
+        padding-left: 5%;
+                    }
+
+
+
                                     }
 
 

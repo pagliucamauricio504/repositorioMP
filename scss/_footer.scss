@@ -13,22 +13,24 @@
 
 .pieDePagina{
     background-color: map-get($colores, colorEspecial);
-    margin-top: 0;
+   
+    
     text-align: center;
     height: 100%;
     position:relative;
     display:block;
-    .iconosRedes {
+    
+        .iconosRedes {
         color: rgba(0, 0, 0, 0.796);
-        padding: 10px;
-        margin-left: 50px;
+        padding: 4%;
         padding-top: 4%;
         padding-bottom: 2%;
-        animation: float infinite 2s ease-in-out;}
+        animation: float infinite 6s ease-in-out;} 
+
     .fa-square-facebook{
-        animation-delay: 0.5s;}        
+        animation-delay: 1s;}        
     .fa-tiktok{
-        animation-delay: 0.5s;}
+        animation-delay: 1s;}
     .listadoPaginasPie {
         text-decoration: none;
         list-style: none;
@@ -43,3 +45,19 @@
 
 
            
+
+            
+@media screen and (max-width: 767px) {
+    .pieDePagina{
+        .iconosRedes {
+            padding-top: 7%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 412px) {
+        .pieDePagina{
+            .iconosRedes {
+                animation: none;}
+            }
+        }

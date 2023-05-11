@@ -3,10 +3,10 @@
     margin-top: 2%;
     margin-bottom: 4%;
     .titulo__PreguntasFrecuentes{
-        font-family: $tipografiaTexto2;
+        font-family: $tipografiaTexto3;
         color: $colorPrincipalPagina;
-        text-shadow: 0 0 5px rgb(110, 107, 107);
-        font-size: 2.5rem;
+        text-shadow: 3px 3px 5px rgb(146, 145, 145);
+        font-size: 3rem;
         text-align: center;}
 }
 
@@ -17,18 +17,28 @@
     }
                                         }
 
-.seccion__Preguntas {
-    margin-bottom: 20%;}
+.seccion_Preguntas {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 60px;}
     
 .boton__Preguntas {
-    margin-left: 10%;
-    position: relative;
     width: 100%;
+    
+    position: relative;
+    
     margin-right: 0%;}
 
 .dropdown-toggle{
     font-family: $tipografiaTexto;
-    background-color: #e21ce2;}    
+    background-color: #e21ce2;
+    justify-content: center;
+    white-space: pre-line;
+    width: 70%;}    
         
 .btn-secondary:hover{
     color: #fff;

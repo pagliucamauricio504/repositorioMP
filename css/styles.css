@@ -6,6 +6,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Genos&display=swap"');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap" rel="stylesheet');
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +23,7 @@ a {
 .body__Margen {
   margin-left: 2%;
   margin-right: 2%;
-  background-image: radial-gradient(circle, #404144, #323134, #242324, #161515, #000000);
+  background-image: radial-gradient(circle, #000000, #12060b, #1b0d15, #23121d, #2a1527, #2a1527, #2a1527, #2a1527, #23121d, #1b0d15, #12060b, #000000);
 }
 
 .Barra__Navegacion .flexible {
@@ -32,7 +34,7 @@ a {
   margin-left: 1%;
 }
 .Barra__Navegacion .flexible .nav__Li .texto__Li {
-  font-family: Secular One, sans-serif;
+  font-family: "Secular One", sans-serif;
   text-shadow: 3px 4px 5px rgb(221, 94, 183);
 }
 .Barra__Navegacion .flexible .nav__Li .texto__Li:hover {
@@ -64,6 +66,9 @@ a {
   margin-top: 2%;
   margin-bottom: 2%;
 }
+.seccion__Cards .row .col-sm-6 {
+  margin-bottom: 2%;
+}
 .seccion__Cards .card {
   height: 100%;
 }
@@ -88,7 +93,7 @@ a {
 }
 
 .card-text {
-  font-family: Secular One, sans-serif;
+  font-family: "Secular One", sans-serif;
   color: rgb(221, 94, 183);
   font-style: italic;
   backdrop-filter: blur(3px);
@@ -105,7 +110,7 @@ a {
 }
 
 .btn-primary {
-  font-family: Secular One, sans-serif;
+  font-family: "Secular One", sans-serif;
   color: #ffffff;
   background-color: rgb(248, 152, 247);
   border-color: rgb(248, 152, 247);
@@ -147,7 +152,6 @@ a {
 }
 .pieDePagina {
   background-color: rgb(248, 152, 247);
-  margin-top: 0;
   text-align: center;
   height: 100%;
   position: relative;
@@ -155,23 +159,22 @@ a {
 }
 .pieDePagina .iconosRedes {
   color: rgba(0, 0, 0, 0.796);
-  padding: 10px;
-  margin-left: 50px;
+  padding: 4%;
   padding-top: 4%;
   padding-bottom: 2%;
-  animation: float infinite 2s ease-in-out;
+  animation: float infinite 6s ease-in-out;
 }
 .pieDePagina .fa-square-facebook {
-  animation-delay: 0.5s;
+  animation-delay: 1s;
 }
 .pieDePagina .fa-tiktok {
-  animation-delay: 0.5s;
+  animation-delay: 1s;
 }
 .pieDePagina .listadoPaginasPie {
   text-decoration: none;
   list-style: none;
   color: black;
-  font-family: Carter One, cursive, sans-serif;
+  font-family: "Carter One", cursive, sans-serif;
   display: inline-block;
   padding: 0 10px 10px 10px;
 }
@@ -180,15 +183,25 @@ a {
   font-size: 1rem;
 }
 
+@media screen and (max-width: 767px) {
+  .pieDePagina .iconosRedes {
+    padding-top: 7%;
+  }
+}
+@media screen and (max-width: 412px) {
+  .pieDePagina .iconosRedes {
+    animation: none;
+  }
+}
 /*Css de Cursos*/
 .titulo__Cursos {
-  font-family: Carter One, cursive, sans-serif;
+  font-family: "Genos", sans-serif;
   color: rgb(221, 94, 183);
   text-align: center;
   margin: 4%;
   font-size: 4rem;
   padding: 1%;
-  text-shadow: 1px 1px 5px rgb(146, 145, 145);
+  text-shadow: 3px 3px 5px rgb(146, 145, 145);
 }
 
 @media screen and (max-width: 767px) {
@@ -208,13 +221,13 @@ a {
   margin: 0 auto;
   width: auto;
   padding: 5%;
-  font-family: Carter One, cursive, sans-serif;
+  font-family: "Carter One", cursive, sans-serif;
   color: rgb(248, 152, 247);
   text-shadow: 3px 4px 5px black;
   text-decoration: underline;
 }
 .seccion__Cards .card__Uno .card-text {
-  font-family: Secular One, sans-serif;
+  font-family: "Secular One", sans-serif;
   color: white;
   text-shadow: 3px 4px 5px black;
 }
@@ -230,13 +243,13 @@ a {
   margin: 0 auto;
   width: auto;
   padding: 5%;
-  font-family: Carter One, cursive, sans-serif;
+  font-family: "Carter One", cursive, sans-serif;
   color: rgb(248, 152, 247);
   text-shadow: 3px 4px 5px black;
   text-decoration: underline;
 }
 .seccion__Cards .card__Dos .card-text {
-  font-family: Secular One, sans-serif;
+  font-family: "Secular One", sans-serif;
   color: white;
   text-shadow: 3px 4px 5px black;
 }
@@ -252,13 +265,13 @@ a {
   margin: 0 auto;
   width: auto;
   padding: 5%;
-  font-family: Carter One, cursive, sans-serif;
+  font-family: "Carter One", cursive, sans-serif;
   color: rgb(248, 152, 247);
   text-shadow: 3px 4px 5px black;
   text-decoration: underline;
 }
 .seccion__Cards .card__Tres .card-text {
-  font-family: Secular One, sans-serif;
+  font-family: "Secular One", sans-serif;
   color: white;
   text-shadow: 3px 4px 5px black;
 }
@@ -274,13 +287,13 @@ a {
   margin: 0 auto;
   width: auto;
   padding: 5%;
-  font-family: Carter One, cursive, sans-serif;
+  font-family: "Carter One", cursive, sans-serif;
   color: rgb(248, 152, 247);
   text-shadow: 3px 4px 5px black;
   text-decoration: underline;
 }
 .seccion__Cards .card__Cuatro .card-text {
-  font-family: Secular One, sans-serif;
+  font-family: "Secular One", sans-serif;
   color: white;
   text-shadow: 3px 4px 5px black;
 }
@@ -291,10 +304,10 @@ a {
   margin-bottom: 4%;
 }
 .div__Preguntas .titulo__PreguntasFrecuentes {
-  font-family: Carter One, cursive, sans-serif;
+  font-family: "Genos", sans-serif;
   color: rgb(221, 94, 183);
-  text-shadow: 0 0 5px rgb(110, 107, 107);
-  font-size: 2.5rem;
+  text-shadow: 3px 3px 5px rgb(146, 145, 145);
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -303,20 +316,27 @@ a {
     font-size: 1.8rem;
   }
 }
-.seccion__Preguntas {
-  margin-bottom: 20%;
+.seccion_Preguntas {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
 }
 
 .boton__Preguntas {
-  margin-left: 10%;
-  position: relative;
   width: 100%;
+  position: relative;
   margin-right: 0%;
 }
 
 .dropdown-toggle {
-  font-family: Secular One, sans-serif;
+  font-family: "Secular One", sans-serif;
   background-color: #e21ce2;
+  justify-content: center;
+  white-space: pre-line;
+  width: 70%;
 }
 
 .btn-secondary:hover {
@@ -333,7 +353,7 @@ a {
 }
 
 .dropdown-menu {
-  font-family: Carter One, cursive, sans-serif;
+  font-family: "Carter One", cursive, sans-serif;
   color: rgb(221, 94, 183);
   background-image: radial-gradient(circle, #404144, #323134, #242324, #161515, #000000);
   padding: 2%;
@@ -357,10 +377,10 @@ ul.dropdown-menu.show {
   margin-bottom: 4%;
 }
 .div__Contacto .titulo__Contacto {
-  font-family: Carter One, cursive, sans-serif;
+  font-family: "Genos", sans-serif;
   color: rgb(221, 94, 183);
-  text-shadow: 0 0 5px rgb(110, 107, 107);
-  font-size: 2.5rem;
+  text-shadow: 3px 3px 5px rgb(146, 145, 145);
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -371,7 +391,7 @@ ul.dropdown-menu.show {
 }
 .form-label {
   color: #885FDE;
-  font-family: Secular One, sans-serif;
+  font-family: "Secular One", sans-serif;
   text-shadow: 0 0 5px rgb(110, 107, 107);
   font-size: 1.5rem;
 }
@@ -396,22 +416,46 @@ ul.dropdown-menu.show {
   margin-top: 2%;
 }
 
-/*MQ de la imagen de QuienesSomos*/
 .div__Conocenos {
   margin-top: 2%;
   margin-bottom: 4%;
 }
 .div__Conocenos .titulo__Conocenos {
-  font-family: Carter One, cursive, sans-serif;
+  font-family: "Genos", sans-serif;
   color: rgb(221, 94, 183);
-  text-shadow: 0 0 5px rgb(110, 107, 107);
-  font-size: 2.5rem;
+  text-shadow: 3px 3px 5px rgb(146, 145, 145);
+  font-size: 3rem;
   text-align: center;
+}
+
+.titCoordinadora {
+  font-family: "Genos", sans-serif;
+  color: #885FDE;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgb(146, 145, 145);
+  text-align: center;
+}
+
+.card-text.texto__Titcoordinadora {
+  text-shadow: 3px 4px 5px rgb(255, 255, 255);
+}
+
+.imagen__Coord {
+  max-width: 85%;
+}
+
+.col-md-8 p {
+  padding-right: 5%;
+  font-family: "Ysabeau", sans-serif;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 767px) {
   .div__Conocenos .titulo__Conocenos {
     font-size: 1.8rem;
+  }
+  .col-md-8 p {
+    padding-left: 5%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -428,6 +472,70 @@ ul.dropdown-menu.show {
     position: relative;
     top: 5%;
     padding: 5%;
+  }
+}
+.body__Error {
+  height: 100%;
+}
+
+.div__Error {
+  background-image: url("../assets/img/Maquillado-removebg.png");
+  height: 100vh;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.titulo__error {
+  font-size: 9rem;
+  font-family: "Genos", sans-serif;
+  color: rgb(255, 255, 255);
+  padding-top: 10%;
+  padding-left: 5%;
+}
+
+.texto__Error {
+  font-size: 2rem;
+  font-family: "Genos", sans-serif;
+  color: rgb(255, 254, 254);
+  padding-left: 10%;
+}
+
+.aqui__Error {
+  color: rgb(221, 94, 183);
+}
+
+.aqui__Error:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+@media screen and (max-width: 1132px) {
+  .div__Error {
+    background-image: url("../assets/img/Maquillado-removebgtablet.png");
+  }
+  .div__Error .titulo__error {
+    font-size: 6rem;
+    padding-left: 5%;
+  }
+  .div__Error .texto__Error {
+    font-size: 2rem;
+    padding-left: 5%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .div__Error {
+    background-image: url("../assets/img/Maquillado-removebgvert-removebg-preview.png");
+  }
+  .div__Error .titulo__error {
+    font-size: 4rem;
+    padding: 10%;
+    padding-left: 10%;
+  }
+  .div__Error .texto__Error {
+    font-size: 2rem;
   }
 }
 

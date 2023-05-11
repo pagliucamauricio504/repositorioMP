@@ -1,13 +1,13 @@
 /*Css de Cursos*/
 
 .titulo__Cursos{
-    font-family: $tipografiaTexto2;
+    font-family: $tipografiaTexto3;
     color: $colorPrincipalPagina;
     text-align: center;
     margin: 4%;
     font-size: 4rem;   
     padding: 1%;
-    text-shadow: 1px 1px 5px rgb(146, 145, 145);}
+    text-shadow: 3px 3px 5px rgb(146, 145, 145);}
 
 @media screen and (max-width: 767px) {
     .titulo__Cursos{
