@@ -525,7 +525,7 @@ ul.dropdown-menu.show {
     padding-left: 5%;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 756px) {
   .div__Error {
     background-image: url("../assets/img/Maquillado-removebgvert-removebg-preview.png");
   }
